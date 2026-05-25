@@ -4,6 +4,8 @@ WEBIODE update - ATC radar track display on web browser.
 
 ## How to run HTML page  using local JSON with Chrome?
 
+0) Download this package with the ZIP file. (*This file contains all you need!*)
+
 1) Select a subdirectory where the page and all assets will be deployed. Or create a new directory.
 
 ```
