@@ -21,7 +21,17 @@ WEBIODE update - ATC radar track display on web browser.
 3) Create a new subdirectory in the folder just created then copy the full PATH of this new subdirectory *( Ctrl+C ).
 
 ```
-	$ mkdir <chrom_env_dir_name>
+	$ mkdir private_chrome
+```
+
+> After all above you should have a directory structure in your file-system like this below (*files not listed*):
+
+```
+../TRKLAB/
+	├── css
+	├── data
+	├── js
+	└── private_chrome
 ```
 
 4) Open a shell window, or commandline window in the directory where the webcontents were placed before. If the current working directory is not the same where the web contents were placed, then simply change it to the webcontents directory:
@@ -33,7 +43,7 @@ WEBIODE update - ATC radar track display on web browser.
 5) If you are in the right directory, then start the Chrome in the following way:
 
 ```
-	chrome or chrome.exe --disable-web-security --user-data-dir=<somedirectory>
+	chrome or chrome.exe --disable-web-security --user-data-dir=<full path of 'private_chrome' subdirectory>
 ```
 
   where the <somedirectory> is the same which was created in Step 3.
