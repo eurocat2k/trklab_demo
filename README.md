@@ -1,4 +1,4 @@
-# trklab_demo
+# trklab_demo - *static*
 
 WEBIODE update - ATC radar track display on web browser.
 
