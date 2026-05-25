@@ -46,7 +46,7 @@ WEBIODE update - ATC radar track display on web browser.
 	chrome or chrome.exe --disable-web-security --user-data-dir=<full path of 'private_chrome' subdirectory>
 ```
 
-  where the <somedirectory> is the same which was created in Step 3.
+  where the ```<private_chrome>``` is the same which was created in **Step 3**.
 
 6) After a while the new web browser window will appear with some warnings, but we do not take care of the as per now.
 
