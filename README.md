@@ -59,6 +59,11 @@ Some hints:
 - by pressing left mouse button and move it, the map and all the tracks will be panned around.
 - rolling a mousewheel you can zoom in or out the map. (On laptops without mouse use touchpad haptics to access features above.)
 
+## Fixes
+- Fixed geometry functions, and label positions. Updated the first time rendering, now it is Event driven - simulated. The labels - their canvas representations - colored as the track symbols. The track altitude defines the symbol and the label color. Reddish the track close to the ground, blueish the track high up the sky.
+The rendering order: lowest first.
+- Handled the **```mouseOut```** event, when panning the mouse pointer leaves the canvas area, the **```panMouseUp```** event triggers automatically which clears the **```ViewPort.panStart```** propery value. Levaing the panned canvas at the latest known location.
+
 Enjoy!
 
 
